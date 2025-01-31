@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Manan005
 - 👀 I’m interested in : Web development
-- 🌱 I’m currently learning  : HTML, CSS & JS
+- 🌱 I’m currently learning  : Full stack
 - 💞️ I’m looking to collaborate for open-sourse contribution
 - 📫 How to reach me : currently i am ghost👻
 - 😄 Pronouns : Carry
