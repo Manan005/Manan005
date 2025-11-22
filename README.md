@@ -2,7 +2,7 @@
 - 👀 I’m interested in : Web development
 - 🌱 I’m currently learning  : Full stack
 - 💞️ I’m looking to collaborate for open-sourse contribution
-- 📫 How to reach me : currently i am ghost👻
+- 📫 How to reach me : manansurti123@gmail.com
 - 😄 Pronouns : Carry
 - ⚡ Fun fact : Wearing headphones for just an hour could increase the bacteria in your ear by 700 times.
 
