@@ -184,28 +184,7 @@ Acting as an advocate for AI literacy and gathering direct user feedback within 
 
 ---
 
-## 📊 GitHub Analytics
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Manan005&show_icons=true&theme=transparent&hide_border=true&bg_color=0a0a0a&title_color=9d4edd&text_color=c9c9c9&icon_color=7b2cbf" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Manan005&theme=transparent&hide_border=true&background=0a0a0a&ring=7b2cbf&fire=9d4edd&currStreakNum=c9c9c9&currStreakLabel=9d4edd&sideNums=c9c9c9&sideLabels=9d4edd&dates=c9c9c9" width="48%" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manan005&layout=compact&theme=transparent&hide_border=true&bg_color=0a0a0a&title_color=9d4edd&text_color=c9c9c9" width="80%" alt="Top Languages" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Manan005&theme=onedark&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true" alt="GitHub Trophies" />
-</div>
-
----
 
 ## 📈 Contribution Activity
 
