@@ -172,10 +172,6 @@ Acting as an advocate for AI literacy and gathering direct user feedback within 
 ### Udemy
 ![Full-Stack Web Developer](https://img.shields.io/badge/Udemy-Full--Stack_Web_Developer-240046?style=for-the-badge&logo=udemy&logoColor=white&borderColor=5a189a)
 
-### NPTEL
-![DBMS Certification](https://img.shields.io/badge/NPTEL-DBMS_Certification-240046?style=for-the-badge&logo=nptel&logoColor=white&borderColor=5a189a)
-
----
 
 ## 💻 Coding Profiles
 
@@ -230,21 +226,3 @@ Acting as an advocate for AI literacy and gathering direct user feedback within 
 </div>
 
 ---
-
-## 🎯 Current Focus
-
-```yaml
-Current_Status:
-  Learning: 
-    - "Advanced Data Structures & Algorithms in C/Java"
-    - "Open Source Contribution workflows for Python Software Foundation"
-  Building: 
-    - "Full-stack decentralized apps (DApps) & Web3 integration"
-    - "Complex data flow architectures for verification systems"
-  Exploring: 
-    - "Advanced state management in React Native architectures"
-    - "Agentic IDE optimizations for faster deployment"
-  Open_To: 
-    - "Software Engineering Internships"
-    - "Google Summer of Code (GSoC) Opportunities"
-    - "Full-Stack Development Sprints"
