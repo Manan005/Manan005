@@ -198,9 +198,9 @@ Acting as an advocate for AI literacy and gathering direct user feedback within 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manan005/Manan005/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manan005/Manan005/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Manan005/Manan005/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manan005/Manan005/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manan005/Manan005/output/snake-light.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Manan005/Manan005/output/snake-dark.svg">
   </picture>
 </div>
 
