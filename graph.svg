@@ -1,0 +1,814 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 795 177">
+  <style>
+    rect.cell { rx: 2.5; ry: 2.5; }
+    text { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 9.5px; fill: #7d8590; }
+    @media (prefers-reduced-motion) { .cell { animation: none !important; opacity: 1; } }
+    .cell0_0 { animation: reveal 400ms 0ms both; }
+    .cell0_1 { animation: reveal 400ms 0ms both; }
+    .cell0_2 { animation: reveal 400ms 0ms both; }
+    .cell0_3 { animation: reveal 400ms 0ms both; }
+    .cell0_4 { animation: reveal 400ms 0ms both; }
+    .cell0_5 { animation: reveal 400ms 0ms both; }
+    .cell0_6 { animation: reveal 400ms 0ms both; }
+    .cell1_0 { animation: reveal 400ms 30ms both; }
+    .cell1_1 { animation: reveal 400ms 30ms both; }
+    .cell1_2 { animation: reveal 400ms 30ms both; }
+    .cell1_3 { animation: reveal 400ms 30ms both; }
+    .cell1_4 { animation: reveal 400ms 30ms both; }
+    .cell1_5 { animation: reveal 400ms 30ms both; }
+    .cell1_6 { animation: reveal 400ms 30ms both; }
+    .cell2_0 { animation: reveal 400ms 60ms both; }
+    .cell2_1 { animation: reveal 400ms 60ms both; }
+    .cell2_2 { animation: reveal 400ms 60ms both; }
+    .cell2_3 { animation: reveal 400ms 60ms both; }
+    .cell2_4 { animation: reveal 400ms 60ms both; }
+    .cell2_5 { animation: reveal 400ms 60ms both; }
+    .cell2_6 { animation: reveal 400ms 60ms both; }
+    .cell3_0 { animation: reveal 400ms 90ms both; }
+    .cell3_1 { animation: reveal 400ms 90ms both; }
+    .cell3_2 { animation: reveal 400ms 90ms both; }
+    .cell3_3 { animation: reveal 400ms 90ms both; }
+    .cell3_4 { animation: reveal 400ms 90ms both; }
+    .cell3_5 { animation: reveal 400ms 90ms both; }
+    .cell3_6 { animation: reveal 400ms 90ms both; }
+    .cell4_0 { animation: reveal 400ms 120ms both; }
+    .cell4_1 { animation: reveal 400ms 120ms both; }
+    .cell4_2 { animation: reveal 400ms 120ms both; }
+    .cell4_3 { animation: reveal 400ms 120ms both; }
+    .cell4_4 { animation: reveal 400ms 120ms both; }
+    .cell4_5 { animation: reveal 400ms 120ms both; }
+    .cell4_6 { animation: reveal 400ms 120ms both; }
+    .cell5_0 { animation: reveal 400ms 150ms both; }
+    .cell5_1 { animation: reveal 400ms 150ms both; }
+    .cell5_2 { animation: reveal 400ms 150ms both; }
+    .cell5_3 { animation: reveal 400ms 150ms both; }
+    .cell5_4 { animation: reveal 400ms 150ms both; }
+    .cell5_5 { animation: reveal 400ms 150ms both; }
+    .cell5_6 { animation: reveal 400ms 150ms both; }
+    .cell6_0 { animation: reveal 400ms 180ms both; }
+    .cell6_1 { animation: reveal 400ms 180ms both; }
+    .cell6_2 { animation: reveal 400ms 180ms both; }
+    .cell6_3 { animation: reveal 400ms 180ms both; }
+    .cell6_4 { animation: reveal 400ms 180ms both; }
+    .cell6_5 { animation: reveal 400ms 180ms both; }
+    .cell6_6 { animation: reveal 400ms 180ms both; }
+    .cell7_0 { animation: reveal 400ms 210ms both; }
+    .cell7_1 { animation: reveal 400ms 210ms both; }
+    .cell7_2 { animation: reveal 400ms 210ms both; }
+    .cell7_3 { animation: reveal 400ms 210ms both; }
+    .cell7_4 { animation: reveal 400ms 210ms both; }
+    .cell7_5 { animation: reveal 400ms 210ms both; }
+    .cell7_6 { animation: reveal 400ms 210ms both; }
+    .cell8_0 { animation: reveal 400ms 240ms both; }
+    .cell8_1 { animation: reveal 400ms 240ms both; }
+    .cell8_2 { animation: reveal 400ms 240ms both; }
+    .cell8_3 { animation: reveal 400ms 240ms both; }
+    .cell8_4 { animation: reveal 400ms 240ms both; }
+    .cell8_5 { animation: reveal 400ms 240ms both; }
+    .cell8_6 { animation: reveal 400ms 240ms both; }
+    .cell9_0 { animation: reveal 400ms 270ms both; }
+    .cell9_1 { animation: reveal 400ms 270ms both; }
+    .cell9_2 { animation: reveal 400ms 270ms both; }
+    .cell9_3 { animation: reveal 400ms 270ms both; }
+    .cell9_4 { animation: reveal 400ms 270ms both; }
+    .cell9_5 { animation: reveal 400ms 270ms both; }
+    .cell9_6 { animation: reveal 400ms 270ms both; }
+    .cell10_0 { animation: reveal 400ms 300ms both; }
+    .cell10_1 { animation: reveal 400ms 300ms both; }
+    .cell10_2 { animation: reveal 400ms 300ms both; }
+    .cell10_3 { animation: reveal 400ms 300ms both; }
+    .cell10_4 { animation: reveal 400ms 300ms both; }
+    .cell10_5 { animation: reveal 400ms 300ms both; }
+    .cell10_6 { animation: reveal 400ms 300ms both; }
+    .cell11_0 { animation: reveal 400ms 330ms both; }
+    .cell11_1 { animation: reveal 400ms 330ms both; }
+    .cell11_2 { animation: reveal 400ms 330ms both; }
+    .cell11_3 { animation: reveal 400ms 330ms both; }
+    .cell11_4 { animation: reveal 400ms 330ms both; }
+    .cell11_5 { animation: reveal 400ms 330ms both; }
+    .cell11_6 { animation: reveal 400ms 330ms both; }
+    .cell12_0 { animation: reveal 400ms 360ms both; }
+    .cell12_1 { animation: reveal 400ms 360ms both; }
+    .cell12_2 { animation: reveal 400ms 360ms both; }
+    .cell12_3 { animation: reveal 400ms 360ms both; }
+    .cell12_4 { animation: reveal 400ms 360ms both; }
+    .cell12_5 { animation: reveal 400ms 360ms both; }
+    .cell12_6 { animation: reveal 400ms 360ms both; }
+    .cell13_0 { animation: reveal 400ms 390ms both; }
+    .cell13_1 { animation: reveal 400ms 390ms both; }
+    .cell13_2 { animation: reveal 400ms 390ms both; }
+    .cell13_3 { animation: reveal 400ms 390ms both; }
+    .cell13_4 { animation: reveal 400ms 390ms both; }
+    .cell13_5 { animation: reveal 400ms 390ms both; }
+    .cell13_6 { animation: reveal 400ms 390ms both; }
+    .cell14_0 { animation: reveal 400ms 420ms both; }
+    .cell14_1 { animation: reveal 400ms 420ms both; }
+    .cell14_2 { animation: reveal 400ms 420ms both; }
+    .cell14_3 { animation: reveal 400ms 420ms both; }
+    .cell14_4 { animation: reveal 400ms 420ms both; }
+    .cell14_5 { animation: reveal 400ms 420ms both; }
+    .cell14_6 { animation: reveal 400ms 420ms both; }
+    .cell15_0 { animation: reveal 400ms 450ms both; }
+    .cell15_1 { animation: reveal 400ms 450ms both; }
+    .cell15_2 { animation: reveal 400ms 450ms both; }
+    .cell15_3 { animation: reveal 400ms 450ms both; }
+    .cell15_4 { animation: reveal 400ms 450ms both; }
+    .cell15_5 { animation: reveal 400ms 450ms both; }
+    .cell15_6 { animation: reveal 400ms 450ms both; }
+    .cell16_0 { animation: reveal 400ms 480ms both; }
+    .cell16_1 { animation: reveal 400ms 480ms both; }
+    .cell16_2 { animation: reveal 400ms 480ms both; }
+    .cell16_3 { animation: reveal 400ms 480ms both; }
+    .cell16_4 { animation: reveal 400ms 480ms both; }
+    .cell16_5 { animation: reveal 400ms 480ms both; }
+    .cell16_6 { animation: reveal 400ms 480ms both; }
+    .cell17_0 { animation: reveal 400ms 510ms both; }
+    .cell17_1 { animation: reveal 400ms 510ms both; }
+    .cell17_2 { animation: reveal 400ms 510ms both; }
+    .cell17_3 { animation: reveal 400ms 510ms both; }
+    .cell17_4 { animation: reveal 400ms 510ms both; }
+    .cell17_5 { animation: reveal 400ms 510ms both; }
+    .cell17_6 { animation: reveal 400ms 510ms both; }
+    .cell18_0 { animation: reveal 400ms 540ms both; }
+    .cell18_1 { animation: reveal 400ms 540ms both; }
+    .cell18_2 { animation: reveal 400ms 540ms both; }
+    .cell18_3 { animation: reveal 400ms 540ms both; }
+    .cell18_4 { animation: reveal 400ms 540ms both; }
+    .cell18_5 { animation: reveal 400ms 540ms both; }
+    .cell18_6 { animation: reveal 400ms 540ms both; }
+    .cell19_0 { animation: reveal 400ms 570ms both; }
+    .cell19_1 { animation: reveal 400ms 570ms both; }
+    .cell19_2 { animation: reveal 400ms 570ms both; }
+    .cell19_3 { animation: reveal 400ms 570ms both; }
+    .cell19_4 { animation: reveal 400ms 570ms both; }
+    .cell19_5 { animation: reveal 400ms 570ms both; }
+    .cell19_6 { animation: reveal 400ms 570ms both; }
+    .cell20_0 { animation: reveal 400ms 600ms both; }
+    .cell20_1 { animation: reveal 400ms 600ms both; }
+    .cell20_2 { animation: reveal 400ms 600ms both; }
+    .cell20_3 { animation: reveal 400ms 600ms both; }
+    .cell20_4 { animation: reveal 400ms 600ms both; }
+    .cell20_5 { animation: reveal 400ms 600ms both; }
+    .cell20_6 { animation: reveal 400ms 600ms both; }
+    .cell21_0 { animation: reveal 400ms 630ms both; }
+    .cell21_1 { animation: reveal 400ms 630ms both; }
+    .cell21_2 { animation: reveal 400ms 630ms both; }
+    .cell21_3 { animation: reveal 400ms 630ms both; }
+    .cell21_4 { animation: reveal 400ms 630ms both; }
+    .cell21_5 { animation: reveal 400ms 630ms both; }
+    .cell21_6 { animation: reveal 400ms 630ms both; }
+    .cell22_0 { animation: reveal 400ms 660ms both; }
+    .cell22_1 { animation: reveal 400ms 660ms both; }
+    .cell22_2 { animation: reveal 400ms 660ms both; }
+    .cell22_3 { animation: reveal 400ms 660ms both; }
+    .cell22_4 { animation: reveal 400ms 660ms both; }
+    .cell22_5 { animation: reveal 400ms 660ms both; }
+    .cell22_6 { animation: reveal 400ms 660ms both; }
+    .cell23_0 { animation: reveal 400ms 690ms both; }
+    .cell23_1 { animation: reveal 400ms 690ms both; }
+    .cell23_2 { animation: reveal 400ms 690ms both; }
+    .cell23_3 { animation: reveal 400ms 690ms both; }
+    .cell23_4 { animation: reveal 400ms 690ms both; }
+    .cell23_5 { animation: reveal 400ms 690ms both; }
+    .cell23_6 { animation: reveal 400ms 690ms both; }
+    .cell24_0 { animation: reveal 400ms 720ms both; }
+    .cell24_1 { animation: reveal 400ms 720ms both; }
+    .cell24_2 { animation: reveal 400ms 720ms both; }
+    .cell24_3 { animation: reveal 400ms 720ms both; }
+    .cell24_4 { animation: reveal 400ms 720ms both; }
+    .cell24_5 { animation: reveal 400ms 720ms both; }
+    .cell24_6 { animation: reveal 400ms 720ms both; }
+    .cell25_0 { animation: reveal 400ms 750ms both; }
+    .cell25_1 { animation: reveal 400ms 750ms both; }
+    .cell25_2 { animation: reveal 400ms 750ms both; }
+    .cell25_3 { animation: reveal 400ms 750ms both; }
+    .cell25_4 { animation: reveal 400ms 750ms both; }
+    .cell25_5 { animation: reveal 400ms 750ms both; }
+    .cell25_6 { animation: reveal 400ms 750ms both; }
+    .cell26_0 { animation: reveal 400ms 780ms both; }
+    .cell26_1 { animation: reveal 400ms 780ms both; }
+    .cell26_2 { animation: reveal 400ms 780ms both; }
+    .cell26_3 { animation: reveal 400ms 780ms both; }
+    .cell26_4 { animation: reveal 400ms 780ms both; }
+    .cell26_5 { animation: reveal 400ms 780ms both; }
+    .cell26_6 { animation: reveal 400ms 780ms both; }
+    .cell27_0 { animation: reveal 400ms 810ms both; }
+    .cell27_1 { animation: reveal 400ms 810ms both; }
+    .cell27_2 { animation: reveal 400ms 810ms both; }
+    .cell27_3 { animation: reveal 400ms 810ms both; }
+    .cell27_4 { animation: reveal 400ms 810ms both; }
+    .cell27_5 { animation: reveal 400ms 810ms both; }
+    .cell27_6 { animation: reveal 400ms 810ms both; }
+    .cell28_0 { animation: reveal 400ms 840ms both; }
+    .cell28_1 { animation: reveal 400ms 840ms both; }
+    .cell28_2 { animation: reveal 400ms 840ms both; }
+    .cell28_3 { animation: reveal 400ms 840ms both; }
+    .cell28_4 { animation: reveal 400ms 840ms both; }
+    .cell28_5 { animation: reveal 400ms 840ms both; }
+    .cell28_6 { animation: reveal 400ms 840ms both; }
+    .cell29_0 { animation: reveal 400ms 870ms both; }
+    .cell29_1 { animation: reveal 400ms 870ms both; }
+    .cell29_2 { animation: reveal 400ms 870ms both; }
+    .cell29_3 { animation: reveal 400ms 870ms both; }
+    .cell29_4 { animation: reveal 400ms 870ms both; }
+    .cell29_5 { animation: reveal 400ms 870ms both; }
+    .cell29_6 { animation: reveal 400ms 870ms both; }
+    .cell30_0 { animation: reveal 400ms 900ms both; }
+    .cell30_1 { animation: reveal 400ms 900ms both; }
+    .cell30_2 { animation: reveal 400ms 900ms both; }
+    .cell30_3 { animation: reveal 400ms 900ms both; }
+    .cell30_4 { animation: reveal 400ms 900ms both; }
+    .cell30_5 { animation: reveal 400ms 900ms both; }
+    .cell30_6 { animation: reveal 400ms 900ms both; }
+    .cell31_0 { animation: reveal 400ms 930ms both; }
+    .cell31_1 { animation: reveal 400ms 930ms both; }
+    .cell31_2 { animation: reveal 400ms 930ms both; }
+    .cell31_3 { animation: reveal 400ms 930ms both; }
+    .cell31_4 { animation: reveal 400ms 930ms both; }
+    .cell31_5 { animation: reveal 400ms 930ms both; }
+    .cell31_6 { animation: reveal 400ms 930ms both; }
+    .cell32_0 { animation: reveal 400ms 960ms both; }
+    .cell32_1 { animation: reveal 400ms 960ms both; }
+    .cell32_2 { animation: reveal 400ms 960ms both; }
+    .cell32_3 { animation: reveal 400ms 960ms both; }
+    .cell32_4 { animation: reveal 400ms 960ms both; }
+    .cell32_5 { animation: reveal 400ms 960ms both; }
+    .cell32_6 { animation: reveal 400ms 960ms both; }
+    .cell33_0 { animation: reveal 400ms 990ms both; }
+    .cell33_1 { animation: reveal 400ms 990ms both; }
+    .cell33_2 { animation: reveal 400ms 990ms both; }
+    .cell33_3 { animation: reveal 400ms 990ms both; }
+    .cell33_4 { animation: reveal 400ms 990ms both; }
+    .cell33_5 { animation: reveal 400ms 990ms both; }
+    .cell33_6 { animation: reveal 400ms 990ms both; }
+    .cell34_0 { animation: reveal 400ms 1020ms both; }
+    .cell34_1 { animation: reveal 400ms 1020ms both; }
+    .cell34_2 { animation: reveal 400ms 1020ms both; }
+    .cell34_3 { animation: reveal 400ms 1020ms both; }
+    .cell34_4 { animation: reveal 400ms 1020ms both; }
+    .cell34_5 { animation: reveal 400ms 1020ms both; }
+    .cell34_6 { animation: reveal 400ms 1020ms both; }
+    .cell35_0 { animation: reveal 400ms 1050ms both; }
+    .cell35_1 { animation: reveal 400ms 1050ms both; }
+    .cell35_2 { animation: reveal 400ms 1050ms both; }
+    .cell35_3 { animation: reveal 400ms 1050ms both; }
+    .cell35_4 { animation: reveal 400ms 1050ms both; }
+    .cell35_5 { animation: reveal 400ms 1050ms both; }
+    .cell35_6 { animation: reveal 400ms 1050ms both; }
+    .cell36_0 { animation: reveal 400ms 1080ms both; }
+    .cell36_1 { animation: reveal 400ms 1080ms both; }
+    .cell36_2 { animation: reveal 400ms 1080ms both; }
+    .cell36_3 { animation: reveal 400ms 1080ms both; }
+    .cell36_4 { animation: reveal 400ms 1080ms both; }
+    .cell36_5 { animation: reveal 400ms 1080ms both; }
+    .cell36_6 { animation: reveal 400ms 1080ms both; }
+    .cell37_0 { animation: reveal 400ms 1110ms both; }
+    .cell37_1 { animation: reveal 400ms 1110ms both; }
+    .cell37_2 { animation: reveal 400ms 1110ms both; }
+    .cell37_3 { animation: reveal 400ms 1110ms both; }
+    .cell37_4 { animation: reveal 400ms 1110ms both; }
+    .cell37_5 { animation: reveal 400ms 1110ms both; }
+    .cell37_6 { animation: reveal 400ms 1110ms both; }
+    .cell38_0 { animation: reveal 400ms 1140ms both; }
+    .cell38_1 { animation: reveal 400ms 1140ms both; }
+    .cell38_2 { animation: reveal 400ms 1140ms both; }
+    .cell38_3 { animation: reveal 400ms 1140ms both; }
+    .cell38_4 { animation: reveal 400ms 1140ms both; }
+    .cell38_5 { animation: reveal 400ms 1140ms both; }
+    .cell38_6 { animation: reveal 400ms 1140ms both; }
+    .cell39_0 { animation: reveal 400ms 1170ms both; }
+    .cell39_1 { animation: reveal 400ms 1170ms both; }
+    .cell39_2 { animation: reveal 400ms 1170ms both; }
+    .cell39_3 { animation: reveal 400ms 1170ms both; }
+    .cell39_4 { animation: reveal 400ms 1170ms both; }
+    .cell39_5 { animation: reveal 400ms 1170ms both; }
+    .cell39_6 { animation: reveal 400ms 1170ms both; }
+    .cell40_0 { animation: reveal 400ms 1200ms both; }
+    .cell40_1 { animation: reveal 400ms 1200ms both; }
+    .cell40_2 { animation: reveal 400ms 1200ms both; }
+    .cell40_3 { animation: reveal 400ms 1200ms both; }
+    .cell40_4 { animation: reveal 400ms 1200ms both; }
+    .cell40_5 { animation: reveal 400ms 1200ms both; }
+    .cell40_6 { animation: reveal 400ms 1200ms both; }
+    .cell41_0 { animation: reveal 400ms 1230ms both; }
+    .cell41_1 { animation: reveal 400ms 1230ms both; }
+    .cell41_2 { animation: reveal 400ms 1230ms both; }
+    .cell41_3 { animation: reveal 400ms 1230ms both; }
+    .cell41_4 { animation: reveal 400ms 1230ms both; }
+    .cell41_5 { animation: reveal 400ms 1230ms both; }
+    .cell41_6 { animation: reveal 400ms 1230ms both; }
+    .cell42_0 { animation: reveal 400ms 1260ms both; }
+    .cell42_1 { animation: reveal 400ms 1260ms both; }
+    .cell42_2 { animation: reveal 400ms 1260ms both; }
+    .cell42_3 { animation: reveal 400ms 1260ms both; }
+    .cell42_4 { animation: reveal 400ms 1260ms both; }
+    .cell42_5 { animation: reveal 400ms 1260ms both; }
+    .cell42_6 { animation: reveal 400ms 1260ms both; }
+    .cell43_0 { animation: reveal 400ms 1290ms both; }
+    .cell43_1 { animation: reveal 400ms 1290ms both; }
+    .cell43_2 { animation: reveal 400ms 1290ms both; }
+    .cell43_3 { animation: reveal 400ms 1290ms both; }
+    .cell43_4 { animation: reveal 400ms 1290ms both; }
+    .cell43_5 { animation: reveal 400ms 1290ms both; }
+    .cell43_6 { animation: reveal 400ms 1290ms both; }
+    .cell44_0 { animation: reveal 400ms 1320ms both; }
+    .cell44_1 { animation: reveal 400ms 1320ms both; }
+    .cell44_2 { animation: reveal 400ms 1320ms both; }
+    .cell44_3 { animation: reveal 400ms 1320ms both; }
+    .cell44_4 { animation: reveal 400ms 1320ms both; }
+    .cell44_5 { animation: reveal 400ms 1320ms both; }
+    .cell44_6 { animation: reveal 400ms 1320ms both; }
+    .cell45_0 { animation: reveal 400ms 1350ms both; }
+    .cell45_1 { animation: reveal 400ms 1350ms both; }
+    .cell45_2 { animation: reveal 400ms 1350ms both; }
+    .cell45_3 { animation: reveal 400ms 1350ms both; }
+    .cell45_4 { animation: reveal 400ms 1350ms both; }
+    .cell45_5 { animation: reveal 400ms 1350ms both; }
+    .cell45_6 { animation: reveal 400ms 1350ms both; }
+    .cell46_0 { animation: reveal 400ms 1380ms both; }
+    .cell46_1 { animation: reveal 400ms 1380ms both; }
+    .cell46_2 { animation: reveal 400ms 1380ms both; }
+    .cell46_3 { animation: reveal 400ms 1380ms both; }
+    .cell46_4 { animation: reveal 400ms 1380ms both; }
+    .cell46_5 { animation: reveal 400ms 1380ms both; }
+    .cell46_6 { animation: reveal 400ms 1380ms both; }
+    .cell47_0 { animation: reveal 400ms 1410ms both; }
+    .cell47_1 { animation: reveal 400ms 1410ms both; }
+    .cell47_2 { animation: reveal 400ms 1410ms both; }
+    .cell47_3 { animation: reveal 400ms 1410ms both; }
+    .cell47_4 { animation: reveal 400ms 1410ms both; }
+    .cell47_5 { animation: reveal 400ms 1410ms both; }
+    .cell47_6 { animation: reveal 400ms 1410ms both; }
+    .cell48_0 { animation: reveal 400ms 1440ms both; }
+    .cell48_1 { animation: reveal 400ms 1440ms both; }
+    .cell48_2 { animation: reveal 400ms 1440ms both; }
+    .cell48_3 { animation: reveal 400ms 1440ms both; }
+    .cell48_4 { animation: reveal 400ms 1440ms both; }
+    .cell48_5 { animation: reveal 400ms 1440ms both; }
+    .cell48_6 { animation: reveal 400ms 1440ms both; }
+    .cell49_0 { animation: reveal 400ms 1470ms both; }
+    .cell49_1 { animation: reveal 400ms 1470ms both; }
+    .cell49_2 { animation: reveal 400ms 1470ms both; }
+    .cell49_3 { animation: reveal 400ms 1470ms both; }
+    .cell49_4 { animation: reveal 400ms 1470ms both; }
+    .cell49_5 { animation: reveal 400ms 1470ms both; }
+    .cell49_6 { animation: reveal 400ms 1470ms both; }
+    .cell50_0 { animation: reveal 400ms 1500ms both; }
+    .cell50_1 { animation: reveal 400ms 1500ms both; }
+    .cell50_2 { animation: reveal 400ms 1500ms both; }
+    .cell50_3 { animation: reveal 400ms 1500ms both; }
+    .cell50_4 { animation: reveal 400ms 1500ms both; }
+    .cell50_5 { animation: reveal 400ms 1500ms both; }
+    .cell50_6 { animation: reveal 400ms 1500ms both; }
+    .cell51_0 { animation: reveal 400ms 1530ms both; }
+    .cell51_1 { animation: reveal 400ms 1530ms both; }
+    .cell51_2 { animation: reveal 400ms 1530ms both; }
+    .cell51_3 { animation: reveal 400ms 1530ms both; }
+    .cell51_4 { animation: reveal 400ms 1530ms both; }
+    .cell51_5 { animation: reveal 400ms 1530ms both; }
+    .cell51_6 { animation: reveal 400ms 1530ms both; }
+    .cell52_0 { animation: reveal 400ms 1560ms both; }
+    .cell52_1 { animation: reveal 400ms 1560ms both; }
+    .cell52_2 { animation: reveal 400ms 1560ms both; }
+    .cell52_3 { animation: reveal 400ms 1560ms both; }
+    .cell52_4 { animation: reveal 400ms 1560ms both; }
+    .cell52_5 { animation: reveal 400ms 1560ms both; }
+    .cell52_6 { animation: reveal 400ms 1560ms both; }
+    @keyframes reveal { from { opacity: 0; transform: scale(0.3); } to { opacity: 1; transform: scale(1); } }
+  </style>
+  <rect class="cell cell0_0" x="28" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-20</title></rect>
+  <rect class="cell cell0_1" x="28" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-27</title></rect>
+  <rect class="cell cell0_2" x="28" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-03</title></rect>
+  <rect class="cell cell0_3" x="28" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-10</title></rect>
+  <rect class="cell cell0_4" x="28" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-17</title></rect>
+  <rect class="cell cell0_5" x="28" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-24</title></rect>
+  <rect class="cell cell0_6" x="28" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-31</title></rect>
+  <rect class="cell cell1_0" x="42" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-07</title></rect>
+  <rect class="cell cell1_1" x="42" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-14</title></rect>
+  <rect class="cell cell1_2" x="42" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-21</title></rect>
+  <rect class="cell cell1_3" x="42" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-28</title></rect>
+  <rect class="cell cell1_4" x="42" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-05</title></rect>
+  <rect class="cell cell1_5" x="42" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-12</title></rect>
+  <rect class="cell cell1_6" x="42" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-19</title></rect>
+  <rect class="cell cell2_0" x="56" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-26</title></rect>
+  <rect class="cell cell2_1" x="56" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-02</title></rect>
+  <rect class="cell cell2_2" x="56" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-09</title></rect>
+  <rect class="cell cell2_3" x="56" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-16</title></rect>
+  <rect class="cell cell2_4" x="56" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-23</title></rect>
+  <rect class="cell cell2_5" x="56" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-30</title></rect>
+  <rect class="cell cell2_6" x="56" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-07</title></rect>
+  <rect class="cell cell3_0" x="70" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-14</title></rect>
+  <rect class="cell cell3_1" x="70" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-21</title></rect>
+  <rect class="cell cell3_2" x="70" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-28</title></rect>
+  <rect class="cell cell3_3" x="70" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-04</title></rect>
+  <rect class="cell cell3_4" x="70" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-11</title></rect>
+  <rect class="cell cell3_5" x="70" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-18</title></rect>
+  <rect class="cell cell3_6" x="70" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-25</title></rect>
+  <rect class="cell cell4_0" x="84" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-01</title></rect>
+  <rect class="cell cell4_1" x="84" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-08</title></rect>
+  <rect class="cell cell4_2" x="84" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-15</title></rect>
+  <rect class="cell cell4_3" x="84" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-22</title></rect>
+  <rect class="cell cell4_4" x="84" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-01</title></rect>
+  <rect class="cell cell4_5" x="84" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-08</title></rect>
+  <rect class="cell cell4_6" x="84" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-15</title></rect>
+  <rect class="cell cell5_0" x="98" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-22</title></rect>
+  <rect class="cell cell5_1" x="98" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-29</title></rect>
+  <rect class="cell cell5_2" x="98" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-05</title></rect>
+  <rect class="cell cell5_3" x="98" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-12</title></rect>
+  <rect class="cell cell5_4" x="98" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-19</title></rect>
+  <rect class="cell cell5_5" x="98" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-26</title></rect>
+  <rect class="cell cell5_6" x="98" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-03</title></rect>
+  <rect class="cell cell6_0" x="112" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-10</title></rect>
+  <rect class="cell cell6_1" x="112" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-17</title></rect>
+  <rect class="cell cell6_2" x="112" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-24</title></rect>
+  <rect class="cell cell6_3" x="112" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-31</title></rect>
+  <rect class="cell cell6_4" x="112" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-07</title></rect>
+  <rect class="cell cell6_5" x="112" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-14</title></rect>
+  <rect class="cell cell6_6" x="112" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-21</title></rect>
+  <rect class="cell cell7_0" x="126" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-28</title></rect>
+  <rect class="cell cell7_1" x="126" y="40" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-07-05</title></rect>
+  <rect class="cell cell7_2" x="126" y="54" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-07-12</title></rect>
+  <rect class="cell cell7_3" x="126" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-19</title></rect>
+  <rect class="cell cell7_4" x="126" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-21</title></rect>
+  <rect class="cell cell7_5" x="126" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-28</title></rect>
+  <rect class="cell cell7_6" x="126" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-04</title></rect>
+  <rect class="cell cell8_0" x="140" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-11</title></rect>
+  <rect class="cell cell8_1" x="140" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-18</title></rect>
+  <rect class="cell cell8_2" x="140" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-25</title></rect>
+  <rect class="cell cell8_3" x="140" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-01</title></rect>
+  <rect class="cell cell8_4" x="140" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-08</title></rect>
+  <rect class="cell cell8_5" x="140" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-15</title></rect>
+  <rect class="cell cell8_6" x="140" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-22</title></rect>
+  <rect class="cell cell9_0" x="154" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-29</title></rect>
+  <rect class="cell cell9_1" x="154" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-06</title></rect>
+  <rect class="cell cell9_2" x="154" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-13</title></rect>
+  <rect class="cell cell9_3" x="154" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-20</title></rect>
+  <rect class="cell cell9_4" x="154" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-27</title></rect>
+  <rect class="cell cell9_5" x="154" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-03</title></rect>
+  <rect class="cell cell9_6" x="154" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-10</title></rect>
+  <rect class="cell cell10_0" x="168" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-17</title></rect>
+  <rect class="cell cell10_1" x="168" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-24</title></rect>
+  <rect class="cell cell10_2" x="168" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-01</title></rect>
+  <rect class="cell cell10_3" x="168" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-08</title></rect>
+  <rect class="cell cell10_4" x="168" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-15</title></rect>
+  <rect class="cell cell10_5" x="168" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-22</title></rect>
+  <rect class="cell cell10_6" x="168" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-29</title></rect>
+  <rect class="cell cell11_0" x="182" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-05</title></rect>
+  <rect class="cell cell11_1" x="182" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-12</title></rect>
+  <rect class="cell cell11_2" x="182" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-19</title></rect>
+  <rect class="cell cell11_3" x="182" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-26</title></rect>
+  <rect class="cell cell11_4" x="182" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-02</title></rect>
+  <rect class="cell cell11_5" x="182" y="96" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-02-09</title></rect>
+  <rect class="cell cell11_6" x="182" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-16</title></rect>
+  <rect class="cell cell12_0" x="196" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-23</title></rect>
+  <rect class="cell cell12_1" x="196" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-02</title></rect>
+  <rect class="cell cell12_2" x="196" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-09</title></rect>
+  <rect class="cell cell12_3" x="196" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-16</title></rect>
+  <rect class="cell cell12_4" x="196" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-23</title></rect>
+  <rect class="cell cell12_5" x="196" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-30</title></rect>
+  <rect class="cell cell12_6" x="196" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-06</title></rect>
+  <rect class="cell cell13_0" x="210" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-13</title></rect>
+  <rect class="cell cell13_1" x="210" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-20</title></rect>
+  <rect class="cell cell13_2" x="210" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-27</title></rect>
+  <rect class="cell cell13_3" x="210" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-04</title></rect>
+  <rect class="cell cell13_4" x="210" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-11</title></rect>
+  <rect class="cell cell13_5" x="210" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-18</title></rect>
+  <rect class="cell cell13_6" x="210" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-25</title></rect>
+  <rect class="cell cell14_0" x="224" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-01</title></rect>
+  <rect class="cell cell14_1" x="224" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-08</title></rect>
+  <rect class="cell cell14_2" x="224" y="54" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2026-06-15</title></rect>
+  <rect class="cell cell14_3" x="224" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-22</title></rect>
+  <rect class="cell cell14_4" x="224" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-29</title></rect>
+  <rect class="cell cell14_5" x="224" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-06</title></rect>
+  <rect class="cell cell14_6" x="224" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-13</title></rect>
+  <rect class="cell cell15_0" x="238" y="26" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-07-20</title></rect>
+  <rect class="cell cell15_1" x="238" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-22</title></rect>
+  <rect class="cell cell15_2" x="238" y="54" width="11" height="11" fill="#a5d8ff"><title>0 contributions on 2025-07-29</title></rect>
+  <rect class="cell cell15_3" x="238" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-05</title></rect>
+  <rect class="cell cell15_4" x="238" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-12</title></rect>
+  <rect class="cell cell15_5" x="238" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-19</title></rect>
+  <rect class="cell cell15_6" x="238" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-26</title></rect>
+  <rect class="cell cell16_0" x="252" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-02</title></rect>
+  <rect class="cell cell16_1" x="252" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-09</title></rect>
+  <rect class="cell cell16_2" x="252" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-16</title></rect>
+  <rect class="cell cell16_3" x="252" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-23</title></rect>
+  <rect class="cell cell16_4" x="252" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-30</title></rect>
+  <rect class="cell cell16_5" x="252" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-07</title></rect>
+  <rect class="cell cell16_6" x="252" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-14</title></rect>
+  <rect class="cell cell17_0" x="266" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-21</title></rect>
+  <rect class="cell cell17_1" x="266" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-28</title></rect>
+  <rect class="cell cell17_2" x="266" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-04</title></rect>
+  <rect class="cell cell17_3" x="266" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-11</title></rect>
+  <rect class="cell cell17_4" x="266" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-18</title></rect>
+  <rect class="cell cell17_5" x="266" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-25</title></rect>
+  <rect class="cell cell17_6" x="266" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-02</title></rect>
+  <rect class="cell cell18_0" x="280" y="26" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2025-12-09</title></rect>
+  <rect class="cell cell18_1" x="280" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-16</title></rect>
+  <rect class="cell cell18_2" x="280" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-23</title></rect>
+  <rect class="cell cell18_3" x="280" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-30</title></rect>
+  <rect class="cell cell18_4" x="280" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-06</title></rect>
+  <rect class="cell cell18_5" x="280" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-13</title></rect>
+  <rect class="cell cell18_6" x="280" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-20</title></rect>
+  <rect class="cell cell19_0" x="294" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-27</title></rect>
+  <rect class="cell cell19_1" x="294" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-03</title></rect>
+  <rect class="cell cell19_2" x="294" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-10</title></rect>
+  <rect class="cell cell19_3" x="294" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-17</title></rect>
+  <rect class="cell cell19_4" x="294" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-24</title></rect>
+  <rect class="cell cell19_5" x="294" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-03</title></rect>
+  <rect class="cell cell19_6" x="294" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-10</title></rect>
+  <rect class="cell cell20_0" x="308" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-17</title></rect>
+  <rect class="cell cell20_1" x="308" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-24</title></rect>
+  <rect class="cell cell20_2" x="308" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-31</title></rect>
+  <rect class="cell cell20_3" x="308" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-07</title></rect>
+  <rect class="cell cell20_4" x="308" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-14</title></rect>
+  <rect class="cell cell20_5" x="308" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-21</title></rect>
+  <rect class="cell cell20_6" x="308" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-28</title></rect>
+  <rect class="cell cell21_0" x="322" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-05</title></rect>
+  <rect class="cell cell21_1" x="322" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-12</title></rect>
+  <rect class="cell cell21_2" x="322" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-19</title></rect>
+  <rect class="cell cell21_3" x="322" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-26</title></rect>
+  <rect class="cell cell21_4" x="322" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-02</title></rect>
+  <rect class="cell cell21_5" x="322" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-09</title></rect>
+  <rect class="cell cell21_6" x="322" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-16</title></rect>
+  <rect class="cell cell22_0" x="336" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-23</title></rect>
+  <rect class="cell cell22_1" x="336" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-30</title></rect>
+  <rect class="cell cell22_2" x="336" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-07</title></rect>
+  <rect class="cell cell22_3" x="336" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-14</title></rect>
+  <rect class="cell cell22_4" x="336" y="82" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2026-07-21</title></rect>
+  <rect class="cell cell22_5" x="336" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-23</title></rect>
+  <rect class="cell cell22_6" x="336" y="110" width="11" height="11" fill="#a5d8ff"><title>0 contributions on 2025-07-30</title></rect>
+  <rect class="cell cell23_0" x="350" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-06</title></rect>
+  <rect class="cell cell23_1" x="350" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-13</title></rect>
+  <rect class="cell cell23_2" x="350" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-20</title></rect>
+  <rect class="cell cell23_3" x="350" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-27</title></rect>
+  <rect class="cell cell23_4" x="350" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-03</title></rect>
+  <rect class="cell cell23_5" x="350" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-10</title></rect>
+  <rect class="cell cell23_6" x="350" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-17</title></rect>
+  <rect class="cell cell24_0" x="364" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-24</title></rect>
+  <rect class="cell cell24_1" x="364" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-01</title></rect>
+  <rect class="cell cell24_2" x="364" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-08</title></rect>
+  <rect class="cell cell24_3" x="364" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-15</title></rect>
+  <rect class="cell cell24_4" x="364" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-22</title></rect>
+  <rect class="cell cell24_5" x="364" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-29</title></rect>
+  <rect class="cell cell24_6" x="364" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-05</title></rect>
+  <rect class="cell cell25_0" x="378" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-12</title></rect>
+  <rect class="cell cell25_1" x="378" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-19</title></rect>
+  <rect class="cell cell25_2" x="378" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-26</title></rect>
+  <rect class="cell cell25_3" x="378" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-03</title></rect>
+  <rect class="cell cell25_4" x="378" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-10</title></rect>
+  <rect class="cell cell25_5" x="378" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-17</title></rect>
+  <rect class="cell cell25_6" x="378" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-24</title></rect>
+  <rect class="cell cell26_0" x="392" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-31</title></rect>
+  <rect class="cell cell26_1" x="392" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-07</title></rect>
+  <rect class="cell cell26_2" x="392" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-14</title></rect>
+  <rect class="cell cell26_3" x="392" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-21</title></rect>
+  <rect class="cell cell26_4" x="392" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-28</title></rect>
+  <rect class="cell cell26_5" x="392" y="96" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-02-04</title></rect>
+  <rect class="cell cell26_6" x="392" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-11</title></rect>
+  <rect class="cell cell27_0" x="406" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-18</title></rect>
+  <rect class="cell cell27_1" x="406" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-25</title></rect>
+  <rect class="cell cell27_2" x="406" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-04</title></rect>
+  <rect class="cell cell27_3" x="406" y="68" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-03-11</title></rect>
+  <rect class="cell cell27_4" x="406" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-18</title></rect>
+  <rect class="cell cell27_5" x="406" y="96" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2026-03-25</title></rect>
+  <rect class="cell cell27_6" x="406" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-01</title></rect>
+  <rect class="cell cell28_0" x="420" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-08</title></rect>
+  <rect class="cell cell28_1" x="420" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-15</title></rect>
+  <rect class="cell cell28_2" x="420" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-22</title></rect>
+  <rect class="cell cell28_3" x="420" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-29</title></rect>
+  <rect class="cell cell28_4" x="420" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-06</title></rect>
+  <rect class="cell cell28_5" x="420" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-13</title></rect>
+  <rect class="cell cell28_6" x="420" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-20</title></rect>
+  <rect class="cell cell29_0" x="434" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-27</title></rect>
+  <rect class="cell cell29_1" x="434" y="40" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-06-03</title></rect>
+  <rect class="cell cell29_2" x="434" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-10</title></rect>
+  <rect class="cell cell29_3" x="434" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-17</title></rect>
+  <rect class="cell cell29_4" x="434" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-24</title></rect>
+  <rect class="cell cell29_5" x="434" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-01</title></rect>
+  <rect class="cell cell29_6" x="434" y="110" width="11" height="11" fill="#a5d8ff"><title>0 contributions on 2026-07-08</title></rect>
+  <rect class="cell cell30_0" x="448" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-15</title></rect>
+  <rect class="cell cell30_1" x="448" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-22</title></rect>
+  <rect class="cell cell30_2" x="448" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-24</title></rect>
+  <rect class="cell cell30_3" x="448" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-31</title></rect>
+  <rect class="cell cell30_4" x="448" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-07</title></rect>
+  <rect class="cell cell30_5" x="448" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-14</title></rect>
+  <rect class="cell cell30_6" x="448" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-21</title></rect>
+  <rect class="cell cell31_0" x="462" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-28</title></rect>
+  <rect class="cell cell31_1" x="462" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-04</title></rect>
+  <rect class="cell cell31_2" x="462" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-11</title></rect>
+  <rect class="cell cell31_3" x="462" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-18</title></rect>
+  <rect class="cell cell31_4" x="462" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-25</title></rect>
+  <rect class="cell cell31_5" x="462" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-02</title></rect>
+  <rect class="cell cell31_6" x="462" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-09</title></rect>
+  <rect class="cell cell32_0" x="476" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-16</title></rect>
+  <rect class="cell cell32_1" x="476" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-23</title></rect>
+  <rect class="cell cell32_2" x="476" y="54" width="11" height="11" fill="#16537e"><title>0 contributions on 2025-10-30</title></rect>
+  <rect class="cell cell32_3" x="476" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-06</title></rect>
+  <rect class="cell cell32_4" x="476" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-13</title></rect>
+  <rect class="cell cell32_5" x="476" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-20</title></rect>
+  <rect class="cell cell32_6" x="476" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-27</title></rect>
+  <rect class="cell cell33_0" x="490" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-04</title></rect>
+  <rect class="cell cell33_1" x="490" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-11</title></rect>
+  <rect class="cell cell33_2" x="490" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-18</title></rect>
+  <rect class="cell cell33_3" x="490" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-25</title></rect>
+  <rect class="cell cell33_4" x="490" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-01</title></rect>
+  <rect class="cell cell33_5" x="490" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-08</title></rect>
+  <rect class="cell cell33_6" x="490" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-15</title></rect>
+  <rect class="cell cell34_0" x="504" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-22</title></rect>
+  <rect class="cell cell34_1" x="504" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-29</title></rect>
+  <rect class="cell cell34_2" x="504" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-05</title></rect>
+  <rect class="cell cell34_3" x="504" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-12</title></rect>
+  <rect class="cell cell34_4" x="504" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-19</title></rect>
+  <rect class="cell cell34_5" x="504" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-26</title></rect>
+  <rect class="cell cell34_6" x="504" y="110" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2026-03-05</title></rect>
+  <rect class="cell cell35_0" x="518" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-12</title></rect>
+  <rect class="cell cell35_1" x="518" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-19</title></rect>
+  <rect class="cell cell35_2" x="518" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-26</title></rect>
+  <rect class="cell cell35_3" x="518" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-02</title></rect>
+  <rect class="cell cell35_4" x="518" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-09</title></rect>
+  <rect class="cell cell35_5" x="518" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-16</title></rect>
+  <rect class="cell cell35_6" x="518" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-23</title></rect>
+  <rect class="cell cell36_0" x="532" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-30</title></rect>
+  <rect class="cell cell36_1" x="532" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-07</title></rect>
+  <rect class="cell cell36_2" x="532" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-14</title></rect>
+  <rect class="cell cell36_3" x="532" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-21</title></rect>
+  <rect class="cell cell36_4" x="532" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-28</title></rect>
+  <rect class="cell cell36_5" x="532" y="96" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-06-04</title></rect>
+  <rect class="cell cell36_6" x="532" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-11</title></rect>
+  <rect class="cell cell37_0" x="546" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-18</title></rect>
+  <rect class="cell cell37_1" x="546" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-25</title></rect>
+  <rect class="cell cell37_2" x="546" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-02</title></rect>
+  <rect class="cell cell37_3" x="546" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-09</title></rect>
+  <rect class="cell cell37_4" x="546" y="82" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-07-16</title></rect>
+  <rect class="cell cell37_5" x="546" y="96" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-07-23</title></rect>
+  <rect class="cell cell37_6" x="546" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-25</title></rect>
+  <rect class="cell cell38_0" x="560" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-01</title></rect>
+  <rect class="cell cell38_1" x="560" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-08</title></rect>
+  <rect class="cell cell38_2" x="560" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-15</title></rect>
+  <rect class="cell cell38_3" x="560" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-22</title></rect>
+  <rect class="cell cell38_4" x="560" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-29</title></rect>
+  <rect class="cell cell38_5" x="560" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-05</title></rect>
+  <rect class="cell cell38_6" x="560" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-12</title></rect>
+  <rect class="cell cell39_0" x="574" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-19</title></rect>
+  <rect class="cell cell39_1" x="574" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-26</title></rect>
+  <rect class="cell cell39_2" x="574" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-03</title></rect>
+  <rect class="cell cell39_3" x="574" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-10</title></rect>
+  <rect class="cell cell39_4" x="574" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-17</title></rect>
+  <rect class="cell cell39_5" x="574" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-24</title></rect>
+  <rect class="cell cell39_6" x="574" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-31</title></rect>
+  <rect class="cell cell40_0" x="588" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-07</title></rect>
+  <rect class="cell cell40_1" x="588" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-14</title></rect>
+  <rect class="cell cell40_2" x="588" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-21</title></rect>
+  <rect class="cell cell40_3" x="588" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-28</title></rect>
+  <rect class="cell cell40_4" x="588" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-05</title></rect>
+  <rect class="cell cell40_5" x="588" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-12</title></rect>
+  <rect class="cell cell40_6" x="588" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-19</title></rect>
+  <rect class="cell cell41_0" x="602" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-26</title></rect>
+  <rect class="cell cell41_1" x="602" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-02</title></rect>
+  <rect class="cell cell41_2" x="602" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-09</title></rect>
+  <rect class="cell cell41_3" x="602" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-16</title></rect>
+  <rect class="cell cell41_4" x="602" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-23</title></rect>
+  <rect class="cell cell41_5" x="602" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-30</title></rect>
+  <rect class="cell cell41_6" x="602" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-06</title></rect>
+  <rect class="cell cell42_0" x="616" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-13</title></rect>
+  <rect class="cell cell42_1" x="616" y="40" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-02-20</title></rect>
+  <rect class="cell cell42_2" x="616" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-27</title></rect>
+  <rect class="cell cell42_3" x="616" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-06</title></rect>
+  <rect class="cell cell42_4" x="616" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-13</title></rect>
+  <rect class="cell cell42_5" x="616" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-20</title></rect>
+  <rect class="cell cell42_6" x="616" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-27</title></rect>
+  <rect class="cell cell43_0" x="630" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-03</title></rect>
+  <rect class="cell cell43_1" x="630" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-10</title></rect>
+  <rect class="cell cell43_2" x="630" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-17</title></rect>
+  <rect class="cell cell43_3" x="630" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-24</title></rect>
+  <rect class="cell cell43_4" x="630" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-01</title></rect>
+  <rect class="cell cell43_5" x="630" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-08</title></rect>
+  <rect class="cell cell43_6" x="630" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-15</title></rect>
+  <rect class="cell cell44_0" x="644" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-22</title></rect>
+  <rect class="cell cell44_1" x="644" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-29</title></rect>
+  <rect class="cell cell44_2" x="644" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-05</title></rect>
+  <rect class="cell cell44_3" x="644" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-12</title></rect>
+  <rect class="cell cell44_4" x="644" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-19</title></rect>
+  <rect class="cell cell44_5" x="644" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-26</title></rect>
+  <rect class="cell cell44_6" x="644" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-03</title></rect>
+  <rect class="cell cell45_0" x="658" y="26" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-07-10</title></rect>
+  <rect class="cell cell45_1" x="658" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-17</title></rect>
+  <rect class="cell cell45_2" x="658" y="54" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2026-07-24</title></rect>
+  <rect class="cell cell45_3" x="658" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-07-26</title></rect>
+  <rect class="cell cell45_4" x="658" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-02</title></rect>
+  <rect class="cell cell45_5" x="658" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-09</title></rect>
+  <rect class="cell cell45_6" x="658" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-16</title></rect>
+  <rect class="cell cell46_0" x="672" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-23</title></rect>
+  <rect class="cell cell46_1" x="672" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-08-30</title></rect>
+  <rect class="cell cell46_2" x="672" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-06</title></rect>
+  <rect class="cell cell46_3" x="672" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-13</title></rect>
+  <rect class="cell cell46_4" x="672" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-20</title></rect>
+  <rect class="cell cell46_5" x="672" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-09-27</title></rect>
+  <rect class="cell cell46_6" x="672" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-04</title></rect>
+  <rect class="cell cell47_0" x="686" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-11</title></rect>
+  <rect class="cell cell47_1" x="686" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-18</title></rect>
+  <rect class="cell cell47_2" x="686" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-10-25</title></rect>
+  <rect class="cell cell47_3" x="686" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-01</title></rect>
+  <rect class="cell cell47_4" x="686" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-08</title></rect>
+  <rect class="cell cell47_5" x="686" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-15</title></rect>
+  <rect class="cell cell47_6" x="686" y="110" width="11" height="11" fill="#16537e"><title>0 contributions on 2025-11-22</title></rect>
+  <rect class="cell cell48_0" x="700" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-11-29</title></rect>
+  <rect class="cell cell48_1" x="700" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-06</title></rect>
+  <rect class="cell cell48_2" x="700" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-13</title></rect>
+  <rect class="cell cell48_3" x="700" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-20</title></rect>
+  <rect class="cell cell48_4" x="700" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2025-12-27</title></rect>
+  <rect class="cell cell48_5" x="700" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-03</title></rect>
+  <rect class="cell cell48_6" x="700" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-10</title></rect>
+  <rect class="cell cell49_0" x="714" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-17</title></rect>
+  <rect class="cell cell49_1" x="714" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-24</title></rect>
+  <rect class="cell cell49_2" x="714" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-01-31</title></rect>
+  <rect class="cell cell49_3" x="714" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-07</title></rect>
+  <rect class="cell cell49_4" x="714" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-14</title></rect>
+  <rect class="cell cell49_5" x="714" y="96" width="11" height="11" fill="#16537e"><title>0 contributions on 2026-02-21</title></rect>
+  <rect class="cell cell49_6" x="714" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-02-28</title></rect>
+  <rect class="cell cell50_0" x="728" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-07</title></rect>
+  <rect class="cell cell50_1" x="728" y="40" width="11" height="11" fill="#1c7ed6"><title>0 contributions on 2026-03-14</title></rect>
+  <rect class="cell cell50_2" x="728" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-21</title></rect>
+  <rect class="cell cell50_3" x="728" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-03-28</title></rect>
+  <rect class="cell cell50_4" x="728" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-04</title></rect>
+  <rect class="cell cell50_5" x="728" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-11</title></rect>
+  <rect class="cell cell50_6" x="728" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-18</title></rect>
+  <rect class="cell cell51_0" x="742" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-04-25</title></rect>
+  <rect class="cell cell51_1" x="742" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-02</title></rect>
+  <rect class="cell cell51_2" x="742" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-09</title></rect>
+  <rect class="cell cell51_3" x="742" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-16</title></rect>
+  <rect class="cell cell51_4" x="742" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-23</title></rect>
+  <rect class="cell cell51_5" x="742" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-05-30</title></rect>
+  <rect class="cell cell51_6" x="742" y="110" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-06</title></rect>
+  <rect class="cell cell52_0" x="756" y="26" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-13</title></rect>
+  <rect class="cell cell52_1" x="756" y="40" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-20</title></rect>
+  <rect class="cell cell52_2" x="756" y="54" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-06-27</title></rect>
+  <rect class="cell cell52_3" x="756" y="68" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-04</title></rect>
+  <rect class="cell cell52_4" x="756" y="82" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-11</title></rect>
+  <rect class="cell cell52_5" x="756" y="96" width="11" height="11" fill="#1a1a2e"><title>0 contributions on 2026-07-18</title></rect>
+  <rect class="cell cell52_6" x="756" y="110" width="11" height="11" fill="#a5d8ff"><title>0 contributions on 2026-07-25</title></rect>
+  <text x="28" y="14">Jul</text>
+  <text x="42" y="14">Sep</text>
+  <text x="56" y="14">Oct</text>
+  <text x="70" y="14">Dec</text>
+  <text x="84" y="14">Feb</text>
+  <text x="98" y="14">Mar</text>
+  <text x="112" y="14">May</text>
+  <text x="126" y="14">Jun</text>
+  <text x="140" y="14">Aug</text>
+  <text x="154" y="14">Sep</text>
+  <text x="168" y="14">Nov</text>
+  <text x="182" y="14">Jan</text>
+  <text x="196" y="14">Feb</text>
+  <text x="210" y="14">Apr</text>
+  <text x="224" y="14">Jun</text>
+  <text x="238" y="14">Jul</text>
+  <text x="252" y="14">Sep</text>
+  <text x="266" y="14">Oct</text>
+  <text x="280" y="14">Dec</text>
+  <text x="294" y="14">Jan</text>
+  <text x="308" y="14">Mar</text>
+  <text x="322" y="14">May</text>
+  <text x="336" y="14">Jun</text>
+  <text x="350" y="14">Aug</text>
+  <text x="364" y="14">Sep</text>
+  <text x="378" y="14">Nov</text>
+  <text x="392" y="14">Dec</text>
+  <text x="406" y="14">Feb</text>
+  <text x="420" y="14">Apr</text>
+  <text x="434" y="14">May</text>
+  <text x="448" y="14">Jul</text>
+  <text x="462" y="14">Aug</text>
+  <text x="476" y="14">Oct</text>
+  <text x="490" y="14">Dec</text>
+  <text x="504" y="14">Jan</text>
+  <text x="518" y="14">Mar</text>
+  <text x="532" y="14">Apr</text>
+  <text x="546" y="14">Jun</text>
+  <text x="560" y="14">Aug</text>
+  <text x="574" y="14">Sep</text>
+  <text x="588" y="14">Nov</text>
+  <text x="602" y="14">Dec</text>
+  <text x="616" y="14">Feb</text>
+  <text x="630" y="14">Apr</text>
+  <text x="644" y="14">May</text>
+  <text x="658" y="14">Jul</text>
+  <text x="672" y="14">Aug</text>
+  <text x="686" y="14">Oct</text>
+  <text x="700" y="14">Nov</text>
+  <text x="714" y="14">Jan</text>
+  <text x="728" y="14">Mar</text>
+  <text x="742" y="14">Apr</text>
+  <text x="756" y="14">Jun</text>
+  <text x="0" y="36">Mon</text>
+  <text x="0" y="64">Wed</text>
+  <text x="0" y="92">Fri</text>
+  <text x="28" y="145">Less</text>
+  <rect x="58" y="136" width="11" height="11" rx="2.5" fill="#1a1a2e"/>
+  <rect x="72" y="136" width="11" height="11" rx="2.5" fill="#16537e"/>
+  <rect x="86" y="136" width="11" height="11" rx="2.5" fill="#1c7ed6"/>
+  <rect x="100" y="136" width="11" height="11" rx="2.5" fill="#4dabf7"/>
+  <rect x="114" y="136" width="11" height="11" rx="2.5" fill="#a5d8ff"/>
+  <text x="136" y="145">More</text>
+  <text x="28" y="164" fill="#e6edf3">0 contributions · 0 day streak · best day: Sunday</text>
+</svg>

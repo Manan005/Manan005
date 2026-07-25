@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 367 186">
+  <style>
+    text { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+    @keyframes fadeRow { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%,100% { opacity: 0; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion) { * { animation: none !important; opacity: 1; } }
+  </style>
+  <rect width="367" height="186" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0" y="0" width="367" height="34" rx="8" ry="8" fill="#161b22" />
+  <circle cx="20" cy="17" r="5" fill="#ff5f57" />
+  <circle cx="40" cy="17" r="5" fill="#febc2e" />
+  <circle cx="60" cy="17" r="5" fill="#28c840" />
+  <text x="183" y="21" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#7d8590">sysinfo</text>
+  <text x="20" y="67" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 0ms both;"><tspan fill="#7d8590">role: </tspan><tspan fill="#e6edf3">Software Engineer</tspan></text>
+  <rect x="199" y="54" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 300ms 3;"></rect>
+  <text x="20" y="95" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 180ms both;"><tspan fill="#7d8590">focus: </tspan><tspan fill="#e6edf3">Distributed Systems</tspan></text>
+  <rect x="223" y="82" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 480ms 3;"></rect>
+  <text x="20" y="123" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 360ms both;"><tspan fill="#7d8590">stack: </tspan><tspan fill="#e6edf3">Go · Rust · Postgres</tspan></text>
+  <rect x="231" y="110" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 660ms 3;"></rect>
+  <text x="20" y="151" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 540ms both;"><tspan fill="#7d8590">now: </tspan><tspan fill="#e6edf3">Building a job-queue from scratch</tspan></text>
+  <rect x="316" y="138" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 840ms 3;"></rect>
+</svg>

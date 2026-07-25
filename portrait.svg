@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 620">
+  <style>
+    text { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; fill: #a5d8ff; }
+    @media (prefers-reduced-motion) { .row { animation: none !important; opacity: 1; } }
+    .r0 { animation: reveal 600ms 0ms both; }
+    .r1 { animation: reveal 600ms 40ms both; }
+    .r2 { animation: reveal 600ms 80ms both; }
+    .r3 { animation: reveal 600ms 120ms both; }
+    .r4 { animation: reveal 600ms 160ms both; }
+    .r5 { animation: reveal 600ms 200ms both; }
+    .r6 { animation: reveal 600ms 240ms both; }
+    .r7 { animation: reveal 600ms 280ms both; }
+    .r8 { animation: reveal 600ms 320ms both; }
+    .r9 { animation: reveal 600ms 360ms both; }
+    .r10 { animation: reveal 600ms 400ms both; }
+    .r11 { animation: reveal 600ms 440ms both; }
+    .r12 { animation: reveal 600ms 480ms both; }
+    .r13 { animation: reveal 600ms 520ms both; }
+    .r14 { animation: reveal 600ms 560ms both; }
+    .r15 { animation: reveal 600ms 600ms both; }
+    .r16 { animation: reveal 600ms 640ms both; }
+    .r17 { animation: reveal 600ms 680ms both; }
+    .r18 { animation: reveal 600ms 720ms both; }
+    .r19 { animation: reveal 600ms 760ms both; }
+    .r20 { animation: reveal 600ms 800ms both; }
+    .r21 { animation: reveal 600ms 840ms both; }
+    .r22 { animation: reveal 600ms 880ms both; }
+    .r23 { animation: reveal 600ms 920ms both; }
+    .r24 { animation: reveal 600ms 960ms both; }
+    .r25 { animation: reveal 600ms 1000ms both; }
+    .r26 { animation: reveal 600ms 1040ms both; }
+    .r27 { animation: reveal 600ms 1080ms both; }
+    .r28 { animation: reveal 600ms 1120ms both; }
+    .r29 { animation: reveal 600ms 1160ms both; }
+    .r30 { animation: reveal 600ms 1200ms both; }
+    .r31 { animation: reveal 600ms 1240ms both; }
+    .r32 { animation: reveal 600ms 1280ms both; }
+    .r33 { animation: reveal 600ms 1320ms both; }
+    .r34 { animation: reveal 600ms 1360ms both; }
+    .r35 { animation: reveal 600ms 1400ms both; }
+    .r36 { animation: reveal 600ms 1440ms both; }
+    .r37 { animation: reveal 600ms 1480ms both; }
+    .r38 { animation: reveal 600ms 1520ms both; }
+    .r39 { animation: reveal 600ms 1560ms both; }
+    .r40 { animation: reveal 600ms 1600ms both; }
+    .r41 { animation: reveal 600ms 1640ms both; }
+    @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+  </style>
+  <text class="row r0" x="10" y="14.0">################################################</text>
+  <text class="row r1" x="10" y="28.3">################################################</text>
+  <text class="row r2" x="10" y="42.6">################################################</text>
+  <text class="row r3" x="10" y="56.9">################################################</text>
+  <text class="row r4" x="10" y="71.2">################################################</text>
+  <text class="row r5" x="10" y="85.5">##########OO*~*XO###############################</text>
+  <text class="row r6" x="10" y="99.8">########OX~,..,,~XO#############################</text>
+  <text class="row r7" x="10" y="114.1">########X.''.,:,;;O#############################</text>
+  <text class="row r8" x="10" y="128.4">#######X~::.'..,::X#############################</text>
+  <text class="row r9" x="10" y="142.7">#######X*+~~~~:..;O#############################</text>
+  <text class="row r10" x="10" y="157.0">####OO*;;++xXX*~:xO#############################</text>
+  <text class="row r11" x="10" y="171.3">##Ox~::.'+xx**x;;;*XO###########################</text>
+  <text class="row r12" x="10" y="185.6">##X:::;::...,;~;,:;+OO##################OOXXXOOO</text>
+  <text class="row r13" x="10" y="199.9">#Ox::;~~,+:.;:~+,;:;*OO###############OOxxxxxxxx</text>
+  <text class="row r14" x="10" y="214.2">#O;:;;;~,;*;+:,+++.,~*OO########OO####O+;~~;,,~+</text>
+  <text class="row r15" x="10" y="228.5">#O*::~++:.;++~:.,.'.:~~XO####OOXXxXXOOO;,:~;'':+</text>
+  <text class="row r16" x="10" y="242.8">#O~;;;~*~  .:;:.~+..:;~+XOOOX+;;,,:~*xX*,,;;:~+*</text>
+  <text class="row r17" x="10" y="257.1">Ox.;~~+**.  '...,,'.,:~+*x~;,,:::,,;+~+~:,:;~~*x</text>
+  <text class="row r18" x="10" y="271.4">x,.:;:~+++,.      ''::~+*,.,;~;;;;,+xX~~'::,;~xO</text>
+  <text class="row r19" x="10" y="285.7">,'''::::;;~+~;;:.  ':;~*XO~,+*;'.;:;;x*:,;;::;~x</text>
+  <text class="row r20" x="10" y="300.0">;......,,,:;;::;**:.:~~*O#Ox+++;,+*XX**x~+~;:;~+</text>
+  <text class="row r21" x="10" y="314.3">X,..............;xX~*x*O###OO++~,:;XX~+++*;+~~+x</text>
+  <text class="row r22" x="10" y="328.6">OO*:.........'.',++~*xO######O*;,':X;:~+++*X*+*O</text>
+  <text class="row r23" x="10" y="342.9">#Ox,'.......',+**+;::~O#######O*~:;:.,;++*X*~++~</text>
+  <text class="row r24" x="10" y="357.2">#Ox+:::;;~+++*+*xXXXXOO#######OX+;::::;*+*++X*;x</text>
+  <text class="row r25" x="10" y="371.5">#Ox**XxOO##OOOOOXXXXOO#########O*;:+*~+**x+XO*~X</text>
+  <text class="row r26" x="10" y="385.8">#OxxxXOO########################O~~*Ox:;xOOOO++X</text>
+  <text class="row r27" x="10" y="400.1">#OOOXOOO#########################X;XOx:+XOOOO~~x</text>
+  <text class="row r28" x="10" y="414.4">#################################O;*O+;xO####OOO</text>
+  <text class="row r29" x="10" y="428.7">#################################O~~x:~XO#######</text>
+  <text class="row r30" x="10" y="443.0">################################OX:~+;*O########</text>
+  <text class="row r31" x="10" y="457.3">################################O::~;+XO########</text>
+  <text class="row r32" x="10" y="471.6">################################OO+;+*O#########</text>
+  <text class="row r33" x="10" y="485.9">##################################OOOO##########</text>
+  <text class="row r34" x="10" y="500.2">################################################</text>
+  <text class="row r35" x="10" y="514.5">################################################</text>
+  <text class="row r36" x="10" y="528.8">################################################</text>
+  <text class="row r37" x="10" y="543.1">################################################</text>
+  <text class="row r38" x="10" y="557.4">################################################</text>
+  <text class="row r39" x="10" y="571.7">################################################</text>
+  <text class="row r40" x="10" y="586.0">################################################</text>
+  <text class="row r41" x="10" y="600.3">################################################</text>
+</svg>
