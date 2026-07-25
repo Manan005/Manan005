@@ -12,10 +12,10 @@ import sys
 from pathlib import Path
 
 ROWS = [
-    ("role", "Software Engineer"),
-    ("focus", "Distributed Systems"),
-    ("stack", "Go · Rust · Postgres"),
-    ("now", "Building a job-queue from scratch"),
+    ("Identity", "Adaptable Full-Stack Engineer"),
+    ("Passion", "Building Products From the Ground Up"),
+    ("Superpower", "Aggressively learning whatever it takes to drive growth"),
+    ("Mission", "Demystifying AI literacy & developer tools"),
 ]
 
 LABEL_COLOR = "#7d8590"
