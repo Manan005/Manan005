@@ -12,11 +12,11 @@
   <circle cx="60" cy="17" r="5" fill="#28c840" />
   <text x="289" y="21" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#7d8590">sysinfo</text>
   <text x="20" y="67" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 0ms both;"><tspan fill="#7d8590">Identity: </tspan><tspan fill="#e6edf3">Adaptable Full-Stack Engineer</tspan></text>
-  <rect x="324" y="54" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 300ms 3;"></rect>
+  <rect x="307" y="54" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 300ms 3;"></rect>
   <text x="20" y="95" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 180ms both;"><tspan fill="#7d8590">Passion: </tspan><tspan fill="#e6edf3">Building Products From the Ground Up</tspan></text>
-  <rect x="371" y="82" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 480ms 3;"></rect>
+  <rect x="339" y="82" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 480ms 3;"></rect>
   <text x="20" y="123" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 360ms both;"><tspan fill="#7d8590">Superpower: </tspan><tspan fill="#e6edf3">Aggressively learning whatever it takes to drive growth</tspan></text>
-  <rect x="543" y="110" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 660ms 3;"></rect>
+  <rect x="520" y="110" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 660ms 3;"></rect>
   <text x="20" y="151" font-family="ui-monospace, monospace" font-size="13" opacity="0" style="animation: fadeRow 300ms 540ms both;"><tspan fill="#7d8590">Mission: </tspan><tspan fill="#e6edf3">Demystifying AI literacy &amp; developer tools</tspan></text>
   <rect x="418" y="138" width="8" height="15" fill="#a5d8ff" opacity="0" style="animation: blink 1s 840ms 3;"></rect>
 </svg>
