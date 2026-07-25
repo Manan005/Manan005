@@ -13,15 +13,6 @@
 
 <br>
 
-<div align="center">
-
-<h3><code>$ cat contributions.log</code></h3>
-
-<img src="./graph.svg" width="820" />
-
-</div>
-
-<br>
 
 ![B.E. Computer Science](https://img.shields.io/badge/B.E._Computer_Science-100000?style=for-the-badge&logo=academia&logoColor=9D4EDD&borderColor=3c096c)
 ![Location](https://img.shields.io/badge/Location-Ahmedabad,_India-100000?style=for-the-badge&logo=google-maps&logoColor=9D4EDD&borderColor=3c096c)
