@@ -145,16 +145,6 @@ End-to-end verification platform for identifying unverified information sources.
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manan005&bg_color=0a0a0a&color=9d4edd&line=7b2cbf&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
-</div>
-
----
-
-
-
 ## 🐍 Contribution Snake
 
 <div align="center">
