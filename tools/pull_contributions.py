@@ -35,7 +35,7 @@ def main():
     tree = html.fromstring(resp.text)
 
     # Each day cell: <td class="ContributionCalendar-day" ... data-date="YYYY-MM-DD" data-level="0-4">...</td>
-    cells = tree.cssselect("td.ContributionCalendar-day")
+    cells = tree.xpath('//td[contains(concat(" ", normalize-space(@class), " "), " ContributionCalendar-day ")]')
     days = []
     for cell in cells:
         date_str = cell.get("data-date")
